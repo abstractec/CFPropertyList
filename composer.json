@@ -1,9 +1,9 @@
 {
-    "name": "rodneyrehm/plist",
+    "name": "abstractec/plist",
     "description": "Library for reading and writing Apple's CFPropertyList (plist) files in XML as well as binary format.",
     "keywords": ["plist"],
     "type": "library",
-    "homepage": "https://github.com/rodneyrehm/CFPropertyList",
+    "homepage": "https://github.com/abstractec/CFPropertyList",
     "license": "MIT",
     "require": {
         "php": ">=5.3"
@@ -16,11 +16,15 @@
         {
             "name": "Rodney Rehm",
             "email": "mail+github@rodneyrehm.de"
+        },
+        {
+            "name": "John Haselden",
+            "email": "mail+github@abstractec.co.uk"
         }
     ],
     "support": {
-        "issues": "https://github.com/rodneyrehm/CFPropertyList/issues",
-        "source": "https://github.com/rodneyrehm/CFPropertyList"
+        "issues": "https://github.com/abstractec/CFPropertyList/issues",
+        "source": "https://github.com/abstractec/CFPropertyList"
     },
     "autoload": {
         "psr-0": {
