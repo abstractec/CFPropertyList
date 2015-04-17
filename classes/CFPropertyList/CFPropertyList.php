@@ -415,7 +415,7 @@ class CFPropertyList extends CFBinaryPropertyList implements Iterator {
     // add PropertyList's children
     $plist->appendChild($this->getValue(true)->toXML($doc));
 
-    return $doc->saveXML();
+    return $doc->saveXML($doc, LIBXML_NOEMPTYTAG);
   }
 
 
